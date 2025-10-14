@@ -1,4 +1,4 @@
-package Collections.Sort;
+package Collections.Set;
 
 import java.util.HashSet;
 import java.util.Set;
