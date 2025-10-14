@@ -29,12 +29,6 @@ public class TreeMapTry {
         // Доступ до елемента
         System.out.println(capitalCities.get("France"));
 
-        // Видалити елементи
-        capitalCities.remove("France");
-        System.out.println(capitalCities);
-
-        capitalCities.clear();
-
         // Перехід через TreeMap
         // keySet() метод , якщо вам потрібні лише ключі
         for (String i : capitalCities.keySet()) {
@@ -48,6 +42,12 @@ public class TreeMapTry {
         for(String i : capitalCities.keySet()){
             System.out.println("Key: " + i + " Value: " + capitalCities.get(i));
         }
+
+        // Видалити елементи
+        capitalCities.remove("France");
+        System.out.println(capitalCities);
+
+        capitalCities.clear();
 
         // Without var
         TreeMap<String, String> capitalCities1 = new TreeMap<String, String>();
